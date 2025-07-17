@@ -28,7 +28,7 @@ class UserViewSet(viewsets.ReadOnlyModelViewSet):
 class SnippetViewSet(viewsets.ModelViewSet):
     """
     This ViewSet automatically provides `list`, `create`, `retrieve`,
-    `update` and `destroy` actions.
+    `update`, `partial_update` and `destroy` actions.
 
     Additionally we also provide an extra `highlight` action.
     """
